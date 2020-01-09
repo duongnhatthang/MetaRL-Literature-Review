@@ -17,7 +17,6 @@
 ---
 
 - ### Less relevant:
-
 - [x] [Meta-Learning for Contextual Bandit Exploration](https://arxiv.org/pdf/1901.08159.pdf)(3)
 - [ ] [A Bayesian Approach to Unsupervised One-Shot Learning of Object Categories](http://vision.stanford.edu/documents/Fei-Fei_ICCV03.pdf) (Hierarchical Bayesian approach)
 - [x] [Prediction, Consistency, Curvature: Representation Learning for Locally-Linear Control](https://arxiv.org/pdf/1909.01506.pdf) (3) (PCC)
@@ -68,6 +67,7 @@ Table 2:  Results on tabular MDPs. OTS: Optimistic Thompson Sampling. Greedy: wi
 | Augmented DQN (eps=0)                     | 9.8793 +/- 28.7358  |
 
 Table 3: Results on multi-arm bandit problems. Horizon = 300, number of arms = 2, gamma = 0.9. Augmented DQN: generate training samples with known good latent features (average reward, number_of_chosen**-0.5, current timestep).
+
 **NOTE**: 
 - There is some bias in the number: DQN (eps=0.1) method received more trials than others.
 - Augmented DQN on average required ~7 times less data to converge than vanilla DQN.
