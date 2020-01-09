@@ -62,7 +62,7 @@ Table 2:  Results on tabular MDPs. OTS: Optimistic Thompson Sampling. Greedy: wi
 | A2C                                       | ~ random            |
 | DQN (eps=0)                               | ~ random            |
 | DQN (eps=0.1) unconstrained replay-memory | ~18-20              |
-| DQN (eps=0.1)                             | 7.9343 +/- 10.0282  |
+| DQN (eps=0.1)                             | 7.6187 +/- 9.9622   |
 | Augmented DQN (eps=0.1)                   | 8.5549 +/- 11.5184  |
 | Augmented DQN (eps=0)                     | 9.8793 +/- 28.7358  |
 
