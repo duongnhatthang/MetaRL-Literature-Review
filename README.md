@@ -73,7 +73,7 @@ Table 2:  Results on **tabular MDPs**. Check SNAIL paper for original source.
 Table 3: Results on multi-arm bandit problems. Horizon = 300, number of arms = 2, gamma = 0.9.
 
 **NOTE**: 
-- There is some bias in the number: DQN (eps=0.1) method received more trials than others.
+- There is some bias in the number: DQN (12 trajectories) method received more trials than others.
 - Augmented DQN: generate training samples with known good latent features (average reward, number_of_chosen**-0.5, current timestep).
 - Augmented DQN on average required ~7 times less data to converge than vanilla DQN.
 
