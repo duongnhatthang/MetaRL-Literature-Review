@@ -40,7 +40,7 @@ Gradient based:
 | 500,50       | **463.7**                  | 249.6  |   438.9    | -        | 442.6     | 427.2 | 437.6 | 457.6     | 413.6      | 402.8  |
 | 1000,50      | **944.1**                  | 499.8  |   847.43   | -        | 889.8     | -     | -     | -         | -          | -      |
 
-Table 1:  Results on multi-arm bandit problems. OTS: Optimistic Thompson Sampling. Greedy: with the best empirical mean. Horizon = N, Number of arms = K
+Table 1:  Results on **multi-arm bandit** problems. OTS: Optimistic Thompson Sampling. Greedy: with the best empirical mean. Horizon = N, Number of arms = K
 
 <br>
 <br>
@@ -53,7 +53,7 @@ Table 1:  Results on multi-arm bandit problems. OTS: Optimistic Thompson Samplin
 | 75  | 0.482  | 0.831      | 0.910 | **0.931** | 0.917 | 0.918 | -     | **0.930** |
 | 100 | 0.481  | 0.857      | 0.934 | **0.951** | 0.936 | 0.922 | -     | 0.941 |
 
-Table 2:  Results on tabular MDPs. OTS: Optimistic Thompson Sampling. Greedy: with the best empirical mean. Horizon = N, Number of arms = K. Check SNAIL paper for original source.
+Table 2:  Results on **tabular MDPs**. Check SNAIL paper for original source.
 
 ## My experiment results:
 
