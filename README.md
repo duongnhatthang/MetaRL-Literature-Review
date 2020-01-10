@@ -77,7 +77,7 @@ Table 3: Results on multi-arm bandit problems. Horizon = 300, number of arms = 2
 - Augmented DQN: generate training samples with known good latent features (average reward, number_of_chosen**-0.5, current timestep).
 - Augmented DQN on average required ~7 times less data to converge than vanilla DQN.
 
-### Open question:
+### Open questions:
 - [ ] Augmented DQN basically teach the model to do Meta-Exploration => How do we do this to extend to other problems and method.
 - [ ] Why does eps = 0.1 help improve the performance ? (training with eps is understanable, but it helps even when inference)
 - [ ] Understanding PEARL: investigating the prior that they estimate. Does it overlap with the (bandit) environment actual prior? Can we improve upon this method?
