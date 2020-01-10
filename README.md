@@ -70,10 +70,11 @@ Table 2:  Results on **tabular MDPs**. Check SNAIL paper for original source.
 | Augmented DQN (eps=0.1)                   | 8.5549 +/- 11.5184  |
 | Augmented DQN (eps=0)                     | 9.8793 +/- 28.7358  |
 
-Table 3: Results on multi-arm bandit problems. Horizon = 300, number of arms = 2, gamma = 0.9. Augmented DQN: generate training samples with known good latent features (average reward, number_of_chosen**-0.5, current timestep).
+Table 3: Results on multi-arm bandit problems. Horizon = 300, number of arms = 2, gamma = 0.9.
 
 **NOTE**: 
 - There is some bias in the number: DQN (eps=0.1) method received more trials than others.
+- Augmented DQN: generate training samples with known good latent features (average reward, number_of_chosen**-0.5, current timestep).
 - Augmented DQN on average required ~7 times less data to converge than vanilla DQN.
 
 ### Open question:
