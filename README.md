@@ -8,7 +8,7 @@
 ## Paper list:
 
 Context based:
-- [ ] [Efficient Off-Policy Meta-Reinforcement Learning via Probabilistic Context Variables](https://arxiv.org/pdf/1903.08254.pdf) (PEARL)
+- [x] [Efficient Off-Policy Meta-Reinforcement Learning via Probabilistic Context Variables](https://arxiv.org/pdf/1903.08254.pdf) (PEARL) (4)
 - [x] [A Simple Neural Attentive Meta-Learner](https://arxiv.org/pdf/1707.03141.pdf)(5) (SNAIL)
 - [x] [RL2: Fast Reinforcement Learning via Slow Reinforcement Learning](https://arxiv.org/pdf/1611.02779.pdf)(5) (RL2)
 
