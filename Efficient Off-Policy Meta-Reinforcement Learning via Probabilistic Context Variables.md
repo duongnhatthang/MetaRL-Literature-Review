@@ -32,6 +32,9 @@ to adapt, on-policy data should be used during meta-training as well. Furthermor
      + MAESN showed that with a latent context vector Z, the agent do meta-exploration better (Figure 7 below). Their experiments is only for their method alone, but it can be presumable to be the same for all previous method that encode MDPs since the encoder effect is similar according to the PEARL paper (image above)).
      + MAESN also showed (in figure 8) that the choice of prior as Unit Gaussian is ok, since the latents can still adapted effectively to different region.
      + Additionally, MAESN showed that the structured noise DOES helps meta-exploration better than using a fixed latent context vector (Figure 9). Since the encoder effect is similar (to RNN) according to the PEARL paper, probabilistic latent extraction's only advantage is improving Sample efficiency for dense reward problem, but significantly improve performance for sparse reward problem (PEARL experiment above).
-     ![meta-exploration](https://github.com/duongnhatthang/MetaRL-Literature-Review/blob/master/images/meta_exploration.png)
+     
+<br/>     
+
+![meta-exploration](https://github.com/duongnhatthang/MetaRL-Literature-Review/blob/master/images/meta_exploration.png)
 
      
