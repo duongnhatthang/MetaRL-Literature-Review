@@ -17,17 +17,26 @@ Add later.
 #### Deterministic latent context:
 - [x] [A Simple Neural Attentive Meta-Learner](https://arxiv.org/pdf/1707.03141.pdf)(5) (SNAIL)
 - [x] [RL2: Fast Reinforcement Learning via Slow Reinforcement Learning](https://arxiv.org/pdf/1611.02779.pdf)(5) (RL2)
+- [x] [Learning to Reinforcement Learn](http://www.gatsby.ucl.ac.uk/~ucgtcbl/papers/WangEtAl2016.pdf)(4)
+- [x] [Learning to Learn without Gradient Descent by Gradient Descent](http://proceedings.mlr.press/v70/chen17e/chen17e.pdf) (3.5)
 <br>
 
-### Gradient based:
-- [x] [Learning to Reinforcement Learn](http://www.gatsby.ucl.ac.uk/~ucgtcbl/papers/WangEtAl2016.pdf)(4)
+### Gradient based: learn from aggregated experience using:
+#### Policy gradient:
 - [ ] [Model-Agnostic Meta-Learning for Fast Adaptation of Deep Networks](https://arxiv.org/pdf/1703.03400.pdf) (MAML)
-- [x] [Learning to Learn without Gradient Descent by Gradient Descent](http://proceedings.mlr.press/v70/chen17e/chen17e.pdf) (3.5)
-- [x] [Meta-learning of Sequential Strategies](https://arxiv.org/pdf/1905.03030.pdf)(1) (Review stuff)
+- [ ] [Learning to Explore with Meta-Policy Gradient](https://arxiv.org/abs/1803.05044)
+- [ ] [ProMP: Proximal Meta-Policy Search](https://arxiv.org/abs/1810.06784)
+- [ ] [Some Considerations on Learning to Explore via Meta-Reinforcement Learning](https://arxiv.org/abs/1803.01118).
+#### Meta-learned loss functions:
+- [ ] [Learning to Learn: Meta-Critic Networks for Sample Efficient Learning](https://arxiv.org/abs/1706.09529)
+- [ ] [Evolved Policy Gradients](https://arxiv.org/abs/1802.04821)
+#### Hyperparameters:
+- [ ] [Meta-Gradient Reinforcement Learning](https://arxiv.org/abs/1805.09801)
 <br>
 
 ### Others:
 - [ ] [Soft Actor-Critic: Off-Policy Maximum Entropy Deep Reinforcement Learning with a Stochastic Actor](https://arxiv.org/pdf/1801.01290.pdf) (SAC)
+- [x] [Meta-learning of Sequential Strategies](https://arxiv.org/pdf/1905.03030.pdf)(1) (Review stuff)
 <br>
 
 ### Less relevant:
