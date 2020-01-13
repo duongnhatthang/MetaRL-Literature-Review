@@ -13,7 +13,6 @@ Add later.
 ### Context based:
 #### Probabilistic latent context:
 - [x] [Efficient Off-Policy Meta-Reinforcement Learning via Probabilistic Context Variables](https://arxiv.org/pdf/1903.08254.pdf) (PEARL) (4.5 Read Soft Actor-Critic paper to fully understand final details)
-- [x] [Meta-Reinforcement Learning of Structured Exploration Strategies](https://arxiv.org/pdf/1802.07245.pdf) (MAESN) (3)
 #### Deterministic latent context:
 - [x] [A Simple Neural Attentive Meta-Learner](https://arxiv.org/pdf/1707.03141.pdf)(5) (SNAIL)
 - [x] [RL2: Fast Reinforcement Learning via Slow Reinforcement Learning](https://arxiv.org/pdf/1611.02779.pdf)(5) (RL2)
@@ -23,6 +22,8 @@ Add later.
 
 ### Gradient based: learn from aggregated experience using:
 #### Policy gradient:
+- With probabilistic latent context
+  - [x] [Meta-Reinforcement Learning of Structured Exploration Strategies](https://arxiv.org/pdf/1802.07245.pdf) (MAESN) (3)
 - [ ] [Model-Agnostic Meta-Learning for Fast Adaptation of Deep Networks](https://arxiv.org/pdf/1703.03400.pdf) (MAML)
 - [ ] [Learning to Explore with Meta-Policy Gradient](https://arxiv.org/abs/1803.05044)
 - [ ] [ProMP: Proximal Meta-Policy Search](https://arxiv.org/abs/1810.06784)
