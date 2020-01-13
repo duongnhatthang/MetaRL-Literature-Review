@@ -14,18 +14,23 @@
 #### Deterministic latent context:
 - [x] [A Simple Neural Attentive Meta-Learner](https://arxiv.org/pdf/1707.03141.pdf)(5) (SNAIL)
 - [x] [RL2: Fast Reinforcement Learning via Slow Reinforcement Learning](https://arxiv.org/pdf/1611.02779.pdf)(5) (RL2)
+
 <br>
+
 ### Gradient based:
 - [x] [Learning to Reinforcement Learn](http://www.gatsby.ucl.ac.uk/~ucgtcbl/papers/WangEtAl2016.pdf)(4)
 - [ ] [Model-Agnostic Meta-Learning for Fast Adaptation of Deep Networks](https://arxiv.org/pdf/1703.03400.pdf) (MAML)
 - [ ] [Learning to Learn without Gradient Descent by Gradient Descent](http://proceedings.mlr.press/v70/chen17e/chen17e.pdf)
 - [x] [Meta-learning of Sequential Strategies](https://arxiv.org/pdf/1905.03030.pdf)(1) (Review stuff)
+
 <br>
+
 ### Others:
 - [ ] [Soft Actor-Critic: Off-Policy Maximum Entropy Deep Reinforcement Learning with a Stochastic Actor](https://arxiv.org/pdf/1801.01290.pdf) (SAC)
----
 
-- ### Less relevant:
+<br>
+
+### Less relevant:
 - [x] [Meta-Learning for Contextual Bandit Exploration](https://arxiv.org/pdf/1901.08159.pdf)(3)
 - [ ] [A Bayesian Approach to Unsupervised One-Shot Learning of Object Categories](http://vision.stanford.edu/documents/Fei-Fei_ICCV03.pdf) (Hierarchical Bayesian approach)
 - [x] [Prediction, Consistency, Curvature: Representation Learning for Locally-Linear Control](https://arxiv.org/pdf/1909.01506.pdf) (3) (PCC)
