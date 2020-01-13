@@ -2,8 +2,10 @@
 - Review related papers for the topic: Meta Reinforcement Learning for sequential decision problems.
 - 1-5 score how confident I am in understanding the paper (5: I think I got all the key concepts. 1: I just skim through the paper)
 
-**Note:** At the moment, I focus more on MetaRL for Bandit problem.
 
+## Problem statement and notation:
+Add later.
+**Note:** At the moment, I focus more on MetaRL for Bandit problem.
 
 ## Paper list:
 
