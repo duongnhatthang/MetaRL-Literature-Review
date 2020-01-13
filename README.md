@@ -22,7 +22,7 @@ Add later.
 ### Gradient based:
 - [x] [Learning to Reinforcement Learn](http://www.gatsby.ucl.ac.uk/~ucgtcbl/papers/WangEtAl2016.pdf)(4)
 - [ ] [Model-Agnostic Meta-Learning for Fast Adaptation of Deep Networks](https://arxiv.org/pdf/1703.03400.pdf) (MAML)
-- [ ] [Learning to Learn without Gradient Descent by Gradient Descent](http://proceedings.mlr.press/v70/chen17e/chen17e.pdf)
+- [x] [Learning to Learn without Gradient Descent by Gradient Descent](http://proceedings.mlr.press/v70/chen17e/chen17e.pdf) (3.5)
 - [x] [Meta-learning of Sequential Strategies](https://arxiv.org/pdf/1905.03030.pdf)(1) (Review stuff)
 <br>
 
