@@ -5,6 +5,7 @@
 
 ## Problem statement and notation:
 Add later.
+
 **Note:** At the moment, I focus more on MetaRL for Bandit problem.
 
 ## Paper list:
