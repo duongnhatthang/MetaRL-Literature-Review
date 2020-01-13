@@ -7,17 +7,22 @@
 
 ## Paper list:
 
-Context based:
-- [x] [Efficient Off-Policy Meta-Reinforcement Learning via Probabilistic Context Variables](https://arxiv.org/pdf/1903.08254.pdf) (PEARL) (4)
+### Context based:
+#### Probabilistic latent context:
+- [x] [Efficient Off-Policy Meta-Reinforcement Learning via Probabilistic Context Variables](https://arxiv.org/pdf/1903.08254.pdf) (PEARL) (4.5 Read Soft Actor-Critic paper to fully understand final details)
+- [x] [Meta-Reinforcement Learning of Structured Exploration Strategies](https://arxiv.org/pdf/1802.07245.pdf) (MAESN) (3)
+#### Deterministic latent context:
 - [x] [A Simple Neural Attentive Meta-Learner](https://arxiv.org/pdf/1707.03141.pdf)(5) (SNAIL)
 - [x] [RL2: Fast Reinforcement Learning via Slow Reinforcement Learning](https://arxiv.org/pdf/1611.02779.pdf)(5) (RL2)
-
-Gradient based:
+<br>
+### Gradient based:
 - [x] [Learning to Reinforcement Learn](http://www.gatsby.ucl.ac.uk/~ucgtcbl/papers/WangEtAl2016.pdf)(4)
 - [ ] [Model-Agnostic Meta-Learning for Fast Adaptation of Deep Networks](https://arxiv.org/pdf/1703.03400.pdf) (MAML)
 - [ ] [Learning to Learn without Gradient Descent by Gradient Descent](http://proceedings.mlr.press/v70/chen17e/chen17e.pdf)
 - [x] [Meta-learning of Sequential Strategies](https://arxiv.org/pdf/1905.03030.pdf)(1) (Review stuff)
-
+<br>
+### Others:
+- [ ] [Soft Actor-Critic: Off-Policy Maximum Entropy Deep Reinforcement Learning with a Stochastic Actor](https://arxiv.org/pdf/1801.01290.pdf) (SAC)
 ---
 
 - ### Less relevant:
