@@ -14,6 +14,7 @@
   - => Objective: maximize cumulative reward (or minimize regret)
 
 **Note:** At the moment, I focus more on MetaRL for Bandit problem.
+
 **Note2:** Brief summary slides: https://docs.google.com/presentation/d/1W_qSnl3KwAoLb0yGoETh4grZNTcUocEr4Vlm8CNQh2g/edit?usp=sharing
 
 ### Open questions:
