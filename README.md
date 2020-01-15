@@ -24,7 +24,7 @@ Add later.
 #### Policy gradient:
 - With probabilistic latent context
   - [x] [Meta-Reinforcement Learning of Structured Exploration Strategies](https://arxiv.org/pdf/1802.07245.pdf) (MAESN) (3)
-- [ ] [Model-Agnostic Meta-Learning for Fast Adaptation of Deep Networks](https://arxiv.org/pdf/1703.03400.pdf) (MAML)
+- [x] [Model-Agnostic Meta-Learning for Fast Adaptation of Deep Networks](https://arxiv.org/pdf/1703.03400.pdf) (MAML) (3)
 - [ ] [Learning to Explore with Meta-Policy Gradient](https://arxiv.org/abs/1803.05044)
 - [ ] [ProMP: Proximal Meta-Policy Search](https://arxiv.org/abs/1810.06784)
 - [ ] [Some Considerations on Learning to Explore via Meta-Reinforcement Learning](https://arxiv.org/abs/1803.01118).
@@ -98,6 +98,6 @@ Table 3: Results on multi-arm bandit problems. Horizon = 300, number of arms = 2
 - Augmented DQN on average required ~7 times less data to converge than vanilla DQN.
 
 ### Open questions:
-- [ ] Augmented DQN basically teach the model to do Meta-Exploration => How do we do this to extend to other problems and method.
+- [x] Augmented DQN basically teach the model to do Meta-Exploration => How do we do this to extend to other problems and method. => MAESN paper mentioned that following multiple (non-optimal) policies can inform the agent about the task structure (meta-exploration) 
 - [ ] Why does eps = 0.1 help improve the performance ? (training with eps is understanable, but it helps even when inference)
-- [ ] Understanding PEARL: investigating the prior that they estimate. Does it overlap with the (bandit) environment actual prior? Can we improve upon this method?
+- [x] Understanding PEARL: investigating the prior that they estimate. Does it overlap with the (bandit) environment actual prior? Can we improve upon this method? => They extract the latent context vector, probably contain the arms' prior for bandit problem (but I'm not gonna do an elaborate research on that).
