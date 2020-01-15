@@ -1,10 +1,17 @@
 # MetaRL-Literature-Review
 - Review related papers for the topic: Meta Reinforcement Learning for sequential decision problems.
 - 1-5 score how confident I am in understanding the paper (5: I think I got all the key concepts. 1: I just skim through the paper)
-
+- **Meta-RL**: leverage varied experiences from previous tasks to adapt quickly to the new task at hand.
 
 ## Problem statement and notation:
-Add later.
+  - We assume a distribution of tasks p(𝓣), where each task is a Markov decision process (MDP). 
+  - 𝓣 = {p(s0), p(st+1|st, at), r(st, at)} 
+  - p(s0): initial state distribution
+  - p(st+1|st, at): transition distribution 
+  - r(st, at): reward function . 
+  - p(𝓣) encompasses tasks with varying transition functions (e.g., robots with different dynamics) and varying reward functions (e.g., navigating to different locations). 
+  - The transition and reward functions are unknown, but can be sampled by taking actions in the environment
+  - => Objective: maximize cumulative reward (or minimize regret)
 
 **Note:** At the moment, I focus more on MetaRL for Bandit problem.
 
