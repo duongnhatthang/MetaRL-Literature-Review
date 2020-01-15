@@ -15,6 +15,13 @@
 
 **Note:** At the moment, I focus more on MetaRL for Bandit problem.
 
+### Open questions:
+- [x] Augmented DQN basically teach the model to do Meta-Exploration => How do we do this to extend to other problems and method. => MAESN paper mentioned that following multiple (non-optimal) policies can inform the agent about the task structure (meta-exploration) 
+- [ ] Why does eps = 0.1 help improve the performance ? (training with eps is understanable, but it helps even when inference)
+- [x] Understanding PEARL: investigating the prior that they estimate. Does it overlap with the (bandit) environment actual prior? Can we improve upon this method? => They extract the latent context vector, probably contain the arms' prior for bandit problem (but I'm not gonna do an elaborate research on that).
+- [ ] Gradient based method used gradient update(s) at test time to quickly adapt, while context based just extract context information from some approximate function. Can we combine them to increase efficient?
+- [ ] When facing out-out-distribution tasks, Gradient Based methods (MAESN, MAML) revert back to normal Policy Gradient, while Context Based methods will most likely fail. Can we exploit this characteristic to increase the robustness of PEARL ?
+
 ## Paper list:
 
 ### Context based:
@@ -103,9 +110,3 @@ Table 3: Results on multi-arm bandit problems. Horizon = 300, number of arms = 2
 - There is some bias in the number: DQN (12 trajectories) method received more trials than others.
 - Augmented DQN: generate training samples with known good latent features (average reward, number_of_chosen**-0.5, current timestep).
 - Augmented DQN on average required ~7 times less data to converge than vanilla DQN.
-
-### Open questions:
-- [x] Augmented DQN basically teach the model to do Meta-Exploration => How do we do this to extend to other problems and method. => MAESN paper mentioned that following multiple (non-optimal) policies can inform the agent about the task structure (meta-exploration) 
-- [ ] Why does eps = 0.1 help improve the performance ? (training with eps is understanable, but it helps even when inference)
-- [x] Understanding PEARL: investigating the prior that they estimate. Does it overlap with the (bandit) environment actual prior? Can we improve upon this method? => They extract the latent context vector, probably contain the arms' prior for bandit problem (but I'm not gonna do an elaborate research on that).
-- [ ] Gradient based method used gradient update(s) at test time to quickly adapt, while context based just extract context information from some approximate function. Can we combine them to increase efficient?
