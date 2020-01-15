@@ -14,6 +14,7 @@
   - => Objective: maximize cumulative reward (or minimize regret)
 
 **Note:** At the moment, I focus more on MetaRL for Bandit problem.
+**Note2:** Brief summary slides: https://docs.google.com/presentation/d/1W_qSnl3KwAoLb0yGoETh4grZNTcUocEr4Vlm8CNQh2g/edit?usp=sharing
 
 ### Open questions:
 - [x] Augmented DQN basically teach the model to do Meta-Exploration => How do we do this to extend to other problems and method. => MAESN paper mentioned that following multiple (non-optimal) policies can inform the agent about the task structure (meta-exploration) 
