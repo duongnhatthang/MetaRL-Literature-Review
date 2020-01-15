@@ -23,7 +23,9 @@ to adapt, on-policy data should be used during meta-training as well. Furthermor
      - Compare encoder effect (from PEARL paper): ![image compare encoder effect](https://github.com/duongnhatthang/MetaRL-Literature-Review/blob/master/images/encoder.png)
 
 ## Notes:
-- Approaches that disentangles Task inference and Control (PEARL, RL2 and SNAIL) achieved better result than those that don't.
+- Approaches that disentangles Task inference and Control (Context based: PEARL, RL2 and SNAIL) seem to achieved better result than those that don't (Gradient based: MAML).
+![Bandit and MDPs performance comparison](https://github.com/duongnhatthang/MetaRL-Literature-Review/blob/master/images/Bandit_MDPs_performance_comparison.png)
+
 - The RL objective is optimized with [Soft Actor Critic](https://arxiv.org/pdf/1801.01290.pdf) (where they added maximizing the entropy as part of the objective to increase stability, perfomance (?) and sample efficiency (because off-policy ?)).
 
 - Temporally-extended exploration/ deep exploration (what I call meta-exploration): exploration for the task structure, not just for the current objective. 
