@@ -26,7 +26,7 @@
 
 ## Paper list:
 ### Not classify yet:
-- [ ] [VariBAD: A Very Good Method for Bayes-Adaptive Deep RL via Meta-Learning](https://openreview.net/forum?id=Hkl9JlBYvr&fbclid=IwAR2XUdmfaa4SxJVBVNCSyifEqN7ESdfSkyLvuD2h4XAfzL1EK9G_h-wzfS8) (VariBAD)
+- [x] [VariBAD: A Very Good Method for Bayes-Adaptive Deep RL via Meta-Learning](https://openreview.net/forum?id=Hkl9JlBYvr&fbclid=IwAR2XUdmfaa4SxJVBVNCSyifEqN7ESdfSkyLvuD2h4XAfzL1EK9G_h-wzfS8)(4) (VariBAD) 
 ### Context based:
 #### Probabilistic latent context:
 - [x] [Efficient Off-Policy Meta-Reinforcement Learning via Probabilistic Context Variables](https://arxiv.org/pdf/1903.08254.pdf) (PEARL) (4.5 Read Soft Actor-Critic paper to fully understand final details)
