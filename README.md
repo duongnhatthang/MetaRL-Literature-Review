@@ -25,7 +25,8 @@
 - [ ] When facing out-out-distribution tasks, Gradient Based methods (MAESN, MAML) revert back to normal Policy Gradient, while Context Based methods will most likely fail. Can we exploit this characteristic to increase the robustness of PEARL ?
 
 ## Paper list:
-
+### Not classify yet:
+- [ ] [VariBAD: A Very Good Method for Bayes-Adaptive Deep RL via Meta-Learning](https://openreview.net/forum?id=Hkl9JlBYvr&fbclid=IwAR2XUdmfaa4SxJVBVNCSyifEqN7ESdfSkyLvuD2h4XAfzL1EK9G_h-wzfS8) (VariBAD)
 ### Context based:
 #### Probabilistic latent context:
 - [x] [Efficient Off-Policy Meta-Reinforcement Learning via Probabilistic Context Variables](https://arxiv.org/pdf/1903.08254.pdf) (PEARL) (4.5 Read Soft Actor-Critic paper to fully understand final details)
